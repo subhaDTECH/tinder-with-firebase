@@ -1,0 +1,56 @@
+.chatscreen_message{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: #fff;
+    
+   
+}
+.chat_message{
+    margin-left: 10px;
+    background-color: #a29bfe;
+    padding:15px 20px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+
+}
+
+.chat_user_message{
+    margin-left: auto;
+    background-color: #00cec9;
+    padding:15px 20px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.chatscreen_connect_text{
+    text-align: center;
+    color: gray;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.message_sender{
+    display: flex;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid lightgrey;
+    position: fixed;
+    /* subhaduleygba.medium.com
+Username
+@subhaduleygba */
+
+   
+
+   
+}
+.message_sender >input{
+    flex: 1;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    font-size: 18px;
+  
+}

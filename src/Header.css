@@ -1,0 +1,15 @@
+.logo{
+    height: 40px;
+    object-fit: contain;
+   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+.header__each_icon{
+    padding: 20px;
+}
